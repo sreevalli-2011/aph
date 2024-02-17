@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masonry Grid Gallery</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      .grid-item {
+        margin-bottom: 15px;
+       
+      }
+      .grid-item img {
+        width: 100%;
+       
+      }
+      h1 {
+      text-align: center;
+      font-size: 36px; /* Adjust font size as needed */
+      color: #333; /* Change the color to your preference */
+      font-family: Arial, sans-serif; /* Specify font family */
+     /* Add some top margin for spacing */
+   
+    }
+    
+    </style>
+  </head>
+  <body>
+    
+
+
+
+<!--nested columns-->
+
+<h1 mt-5>SERVICES</h1>
+      <div class="container-fluid">
+        <div class="row" id="gallery">
+          <!-- Image 1 -->
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12 grid-item">
+                <a href="./images/ab-im-3.jpg" class="lightbox" data-gallery="gallery1">
+                  <img src="./images/ab-im-3.jpg" class="img-fluid" /></a>
+                  <div class="text-center mt-3">HOME</div>
+                
+              </div>
+            </div>
+            <!-- Image 2 -->
+            <div class="row">
+              <div class="col-md-12 grid-item">
+                <a href="./images/ga-6.jpg" class="lightbox" data-gallery="gallery1">
+                  <img src="./images/ga-6.jpg" class="img-fluid" /></a>
+                  <div class="text-center mt-3">ABOUT</div>
+               
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 grid-item">
+                  <a href="./images/ab-im-9.jpg" class="lightbox" data-gallery="gallery1">
+                    <img src="./images/ab-im-9.jpg" class="img-fluid" /></a>
+                    <div class="text-center mt-3">GALLERY</div>
+                  
+                </div>
+              </div>
+           </div>
+
+           
+          <!-- Image 3 -->
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12 grid-item">
+                <a href="./images/ab-im-big.jpg" class="lightbox" data-gallery="gallery1">
+                  <img src="./images/ab-im-big.jpg" class="img-fluid" />
+                  <div class="text-center mt-3">PORTFOLIO</div></a>
+               
+              </div>
+            </div>
+            <!-- Image 4 -->
+            <div class="row">
+              <div class="col-md-12 grid-item">
+                <a href="./images/ab-im-7.jpeg" class="lightbox" data-gallery="gallery1" style="height: 500px;">
+                  <img src="./images/ab-im-7.jpeg" class="img-fluid" style="height: 500px;" />
+                  <div class="text-center mt-3">CONTACT</div></a>
+               
+              </div>
+            </div>
+            <!-- Image 5 -->
+            <div class="row">
+              <div class="col-md-12 grid-item">
+                <a href="./images/ab-im-8.jpg" class="lightbox" data-gallery="gallery1">
+                  <img src="./images/ab-im-8.jpg" class="img-fluid" /></a>
+                  <div class="text-center mt-3">SERVICES</div>
+               
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 grid-item">
+                  <href="./images/ga-6.jpg" class="lightbox" data-gallery="gallery1">
+                    <img src="./images/ga-6.jpg" class="img-fluid" /></a>
+                    <div class="text-center mt-3">LOCATION</div>
+                
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+     
+     
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+    <script>
+      baguetteBox.run(".lightbox");
+    </script>
+  </body>
+</html>

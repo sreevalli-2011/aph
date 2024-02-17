@@ -1,0 +1,241 @@
+
+*  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: NeueHaasGrotesk-Roman,Helvetica,Arial,sans-serif;
+    font-feature-settings: "kern" 1,"kern";
+    font-kerning: normal;
+  }
+/*.menu-container{
+    width: 100%;
+  }
+  
+  
+  .menu-content{
+     margin-top: 1.5rem;
+     width: 50%;
+  }
+  
+  .menu-text{
+      padding: 90px;
+      width: 50%;
+  }
+  
+  p.menu-name{
+      font-size: 1.3rem;
+      text-align: left;
+      text-transform: uppercase;
+      color: #191919;
+      font-weight: bold;
+  
+  }*/
+  
+ 
+.grid-item {
+    width: 50%; /* Set width for left side */
+    padding: 15px;
+}
+
+/* Additional styling for the images */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    
+}
+
+/* Custom styling for the title on the right */
+
+.grid-item1 {
+   
+   width: 100%;
+    padding: 15px;
+    
+
+  
+}
+#box{
+    padding: 15px;
+    background-color: #f2dea25d; /* Set background color for better visibility */
+    border-radius: 8px;
+    height: 1000px;
+    position: relative;
+
+}
+.title {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    line-height: 0.85;
+    letter-spacing: -0.04em;
+    text-align: center;
+    padding-top: 40%;
+    left:20%;
+    position: absolute;
+    font-weight: 400px;
+  
+    
+  
+    
+}
+.text1{
+  
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+    top:5%;
+    letter-spacing: -0.04em;
+    left:30%;
+    position: absolute;
+
+}
+.text2{
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     letter-spacing: -0.04em;
+     top:80%;
+     letter-spacing: -0.04em;
+     left:40%;
+     position: absolute;
+     font-size: 28px;
+    line-height: 1.05;
+    color:darkgoldenrod;
+    letter-spacing: -0.01em;
+
+}
+.text{
+  
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     letter-spacing: -0.04em;
+     top:70%;
+     letter-spacing: -0.04em;
+     left:30%;
+     position: absolute;
+     font-size: 28px;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+
+}
+@keyframes bounceAnimation {
+  
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+    }
+
+
+.animate-bounce {
+    animation: bounceAnimation 5s linear infinite;
+}
+/* Button Style */
+#carouselButton {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px; /* Adjust this margin as needed */
+    padding: 10px 20px;
+    background-color: #007bff; /* Change to your desired background color */
+    color: #fff;
+    border: none;
+    border-radius: 90px;
+    cursor: pointer;
+    height: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for button */
+  }
+  
+  #carouselButton:hover {
+    background-color: #0056b3; /* Change to your desired hover color */
+  }
+  
+  /* Box shadow for images */
+  .grid-item img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow to images */
+  }
+
+
+  .about {
+    padding-left: 2vw;
+    padding-bottom: 15.25rem;
+    margin-top: 70px;
+    max-width: 64vw;
+    font-size: 70px;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+   font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  }
+
+/*.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.container{
+    width:60%;
+    text-decoration: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:200px 50px 200px;
+}
+.child img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;;
+}
+.child.child-1{
+   grid-row:1/3;
+   grid-column: 1/2;
+}
+.child.child-2{
+    grid-row:3/4;
+ }
+ .child.child-3{
+    grid-row:1/2;
+    grid-column: 2/3;
+ }
+ .child.child-4{
+    grid-row:2/-1;
+    grid-column: 2/3;
+ }
+ .child.child-4{
+    grid-row:1/3;
+ }
+ .child.child-5{
+    grid-row:1/3;
+    grid-column: 3/-1;
+ }
+ .child.child-6{
+    grid-row:3/4;
+    grid-column:3/-1 ;
+ }*/
+
+ .aph{
+     font-size: 60px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color:black;
+     margin: 50px;
+ }
+
+  
+
+
+
+
